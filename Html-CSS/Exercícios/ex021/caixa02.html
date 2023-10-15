@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+
+    <style>
+
+
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            background-color:#202020;
+            margin:0px;
+
+        }
+
+        header{
+            background-color:#fff;
+            margin:10px;
+            padding:10px;
+            text-align:center;
+        }
+
+        nav {
+            font-weight: bold;
+            margin-bottom:10px;
+           
+        }
+
+        nav > a{
+            text-decoration:none;
+            color:#fff;;
+            padding:10px;
+            border:2px solid #202020;
+            border-radius:20px;
+            margin:7px;
+         
+            background-color:#202020;
+           
+        }
+
+        nav > a:hover{
+            background-color:#ff006f;
+            transition:0.2s;
+        }
+
+        main{
+            background-color:#fff;
+            margin:10px;
+            padding:10px;
+            text-align:center;   
+        }
+
+        article{
+            background-color:lightgray;
+        }
+
+        article > aside{
+            background-color:rgb(151, 148, 148);
+        }
+
+        footer{
+            background-color:#ff006f;
+            color:#fff;
+            text-align:center;
+            padding:1px;
+        }
+
+        footer .fim{
+            font-size:10px;
+            font-weight:bold;
+            color:#000f;
+            margin-top:-5px;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+      <h1>Meu site</h1>
+   
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Dashboard</a>
+        <a href="#">Agenda</a>
+        <a href="#">Configurações</a>
+        <a href="#">Conta</a>
+
+    </nav>
+    </header>   
+
+    <main>
+        <sectionn id="assuntos">
+       
+        </section>
+        
+        <section id="noticias">
+            <article>
+                <h2>Texto 1</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ex possimus commodi provident voluptatibus aperiam quasi, voluptatem vel sit, ducimus ipsum facilis sint blanditiis soluta vitae voluptas modi repellendus porro?</p>
+                <aside>
+                    <p>Escrito por Douglas Barbosa Sales</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Douglas</p>
+        <div class="fim">
+            <p>Todos os direitos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>

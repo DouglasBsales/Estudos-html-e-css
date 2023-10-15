@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body{
+    background-color: #d6fd9d;;
+}
+
+h1{
+    color:#1e402f;
+    text-align:center;
+}
+
+h1#principal{
+    text-align:center;
+    
+}
+
+h2{
+    color:#3c805e;
+}
+
+.second h2.basico{
+    background-color:#202020;
+    border-radius:20px;
+    text-align:center;
+}
+
+.second p.coment{
+    background-color:#fff;
+    padding:10px;
+    text-align:center;
+    border-radius:20px;
+
+}
+
+.second p.coment:hover{
+    background-color:rgb(6, 106, 238);
+}

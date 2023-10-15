@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste com mídias</title>
+    <link rel="shortcut icon" href="play.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Testando imagens dinâmicas</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/goku-p-ssj2.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/goku-m-ssj2.png" type="image/png">
+        <img src="imagens/goku-g-ssj2.png" alt="Goku ssj2">
+        <p>a imagem dinâmica funcionando ok!</p>
+    </picture>
+    <h1>Teste com áudio no meu site </h1>
+    <audio preload="metadata"controls autoplay>
+        <source src="se voce for embora-tz.mp3" type="audio/mp3">
+        <!--Precisa por os outros tipos de formato de video para serem compativeis com os demais navegadores-->
+    </audio>
+    <h1>testando vídeos no meu site </h1>
+    <video width="400px"controls autoplay>
+        <source src="meu-video.webm"type="video/webm">
+        <p>O formato de video .mp3 esta funcionando no meu site.</p>
+    </video>
+</body>
+</html>

@@ -1,0 +1,6 @@
+Fonte utilizada nos titulos: jetBrains Mono gogle fonts 
+Fonte utilizada nos paragrafos: arial. 
+
+cores usadas: titulo: #232469 = azul escuro 
+cores usadas: icones de <>: e8db61 = amarelo escuro
+cor usada no paragrafo acima do titulo do main: #e80808 = vermelho
