@@ -30,9 +30,8 @@ header .img1{
     margin-left:60px;
 }
 
-header .img2{
+header .img{
     display:inline-block;
-    margin-left:55px;
 }
 
 nav{
@@ -69,7 +68,7 @@ main p{
     font-family:Arial, Helvetica, sans-serif;
     margin-left:60px;
     line-height:30px;
-    color:#000000a8;
+    color:#000000a8
 }
 
 main h1{
@@ -81,12 +80,11 @@ main h1{
     display:inline-block;
 }
 
-.img >img{
+main .img-main > img{
     width:35%;
     float:right;
-    margin-right:200px;
-    margin-top:-280px;
-
+    margin-right:300px;
+    margin-top:-375px;
 }
 
 main button{
@@ -108,23 +106,15 @@ main button >a{
     font-family:'JetBrains Mono', Arial, Helvetica, sans-serif;
 }
 
-ul{
-    display:flex;
-    margin:50px 60px 0 60px;
-    list-style-type:none;
+div {
+    margin-left:60px;
+    margin-top:30px;
+    padding:20px 0px 0px 0px;
 }
 
-ul li a{
+div a{
     color:#000;
-    margin-right:40px;
+    margin-right:50px;
+    text-decoration:none;
     font-size:40px;
-    padding:10px;
 }
-
-li a:hover{
-    border:2px solid black;
-    border-radius:5px;
-    box-shadow:2px 2px 6px 8px #e8db61
-}
-
-
