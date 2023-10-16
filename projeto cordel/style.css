@@ -42,62 +42,54 @@ a:hover{
 
 main p{
     font-family:'Sriracha' Arial, Helvetica, sans-serif;
-    font-size:5vw;
     background-color:#202020;
-    padding:30px 0px 0px 30px;
     line-height: 2em;
 
 }
 
-section .normal{
+section p{
+    padding-bottom:2em;
+}
+
+.normal{
+    font-family:'Sriracha';
     padding-top:10vh;
     padding-bottom:10vh;
     line-height:2em;
     padding-left:30px;
-}
-
-.normal{
-
-    font-family: 'Sriracha';
-    font-size:67px;
-    line-height:2em;
-    
+    font-size:3.5vw;
 }
 
 #img1{
     background-color:#000;
     background-image: url('imagens/background001.jpg');
     background-position:right center;
-    height:100vh;
     background-attachment: fixed;
     background-size:cover;
 }
 
 .imagem{
     padding-top:50px;
-    padding-bottom:20px;
+    padding-bottom:30px;
+    padding-top:10vh;
+    padding-bottom:10vh;
 }
 
 .imagem p{
-    background-color:#0000004b;
+    background-color:#00000088;
     color:#fff;
     font-family:'Sriracha';
-    margin-left:30px;
-    margin-bottom:20px;
-    padding:5px 5px 0px 10px ;
-    font-size:67px;
+    padding:5px;
     display:inline-block;
-}
-
-#paragrafo{
-    padding-top:200px;
+    font-size:3.5vw;
+    margin-left:30px;
+    line-height:2em;
 }
 
 #img2{
     background-color:#000;
     background-image:url('imagens/background002.jpg');
     background-position:right center;
-    height:100vh;
     background-attachment: fixed;
     background-size:cover;
 }
