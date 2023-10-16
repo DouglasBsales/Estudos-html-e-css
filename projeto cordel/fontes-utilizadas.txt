@@ -1,0 +1,7 @@
+h1= Passion One 
+
+parágrafos = verdana
+
+textos da main: Sriracha
+
+
