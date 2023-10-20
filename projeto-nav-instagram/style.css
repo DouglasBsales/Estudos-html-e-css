@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'billabong';
+    src: url('fontes/billabong.ttf') format('opentype');
+}
+
+@font-face {
+    font-family:'Segoe';
+    src: url('fontes/Segoe\ UI.ttf') format('opentype');
+}
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.menu-lateral{
+    width:335px;
+    height:100vh;
+    border:1px solid rgba(0, 0, 0, 0.096);
+}
+
+h1{
+    font-family:'billabong';
+    font-size:35px;
+    font-weight:normal;
+    margin-top:30px;
+    margin-left: 20px;
+    
+}
+
+.first-list{
+    margin-left:10px;
+    margin-top:35px;
+    list-style-type:none;
+}
+
+li{
+    margin-bottom:16px;
+    font-family:'Segoe';
+    padding:8px 0px 8px 16px;
+    margin-right:10px;
+    border-radius:10px;
+}
+
+li a{
+    text-decoration:none;
+    color:#000000;
+}
+
+li a .icon >i{
+    font-size:23px;
+}
+
+li a .txt{
+    margin-left:10px;
+    line-height:30px;
+}
+
+li:hover{
+    background-color:#0000000a;
+    transition:0.2s;
+    cursor:pointer;
+}
+
+.second-list{
+    margin-top:180px;
+}
+
+li a .txt-2{
+    font-size:18px;
+}
+
+.second-list li a .icon > i{
+    font-size:30px;
+}
