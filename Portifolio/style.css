@@ -90,12 +90,14 @@ main #topo{
 }
 
 .content button{
+    font-family:'JetBrains Mono', sans-serif;
     background-color:#000;
-    border-radius:20px;
+    border-radius:10px;
     margin-top:20px;
     margin-left:60px;
     text-align:center;
     padding:10px;
+    cursor:pointer;
 
 }
 
@@ -104,7 +106,7 @@ main #topo{
 }
 
 .content > button >a{
-    font-size:20px;
+    font-size:18px;
     color:#fff;
     text-decoration:none;
 }
@@ -113,24 +115,31 @@ main #topo{
     width:700px;
 }
 
-.social{
-    display:inline-flex;
+ul{
+    display:flex;
     margin-left:60px;
     list-style-type:none;
     margin-top:-180px;
 }
 
-.social li a{
+ul li a{
     color:#000;
     font-size:35px;
     margin-right:20px;
 }
 
-.social li a:hover{
-    background-color:#e8db61;
-    padding:8px;
-    border:2px solid #000;
-    border-radius:10px;
+ul li a > i::before{
+    content: '';
+    width:35px;
+    height:35px;
+    border-radius:20px;
+    background-color:#fff;;
 }
+
+ul li a > i:hover:before{
+    transform: scale(1.5);
+    background-color:#e8db61;
+}
+
 
 
