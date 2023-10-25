@@ -138,6 +138,7 @@ ul li a > i::before{
 
 ul li a > i:hover::before{
     transform: scale(1.5);
+    transition:transform .2s;
 }
 
 .linkedin a > i{
