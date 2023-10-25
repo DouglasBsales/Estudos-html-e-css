@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#202020;
+}
+
+ul{
+    list-style-type:none;
+    display:flex;
+}
+
+ul li a{
+    color:#fff;
+    font-size:60px;
+    margin-right:60px;
+    text-decoration:none;
+    position:relative;
+}
+
+ul .facebook a::before{
+    content: '';
+    position:absolute;
+    top:1px;
+    left:3px;
+    width:50px;
+    height:50px;
+    background-color:#fff;
+    z-index:-1;
+}
+
+ul:hover li a{
+    opacity:.3;
+    transition:0.3s;
+}
+
+ul li a:hover{
+    font-size:70px;
+    transition:0.3s;
+    opacity:1;
+}
+
+
+ul .facebook a:hover::before{
+    background-color:#fff;
+    width:54px;
+    height:55px;
+}
+
+ul .linkedin a::before{
+    content: '';
+    position:absolute;
+    top:1px;
+    left:3px;
+    width:50px;
+    height:50px;
+    background-color:#fff;
+    z-index:-1;
+}
+
+ul .linkedin a:hover::before{
+    background-color:#fff;
+    width:56px;
+    height:53px;
+}
+
+ul .git-hub a::before{
+    content: '';
+    position:absolute;
+    top:-3px;
+    left:-5px;
+    width:70px;
+    height:64px;
+    background-color:#fff;
+    z-index:-1;
+}
