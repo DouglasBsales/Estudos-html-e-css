@@ -136,10 +136,28 @@ ul li a > i::before{
     background-color:#fff;;
 }
 
-ul li a > i:hover:before{
+ul li a > i:hover::before{
     transform: scale(1.5);
-    background-color:#e8db61;
 }
 
+.linkedin a > i{
+    color:#0A66C2;
+}
+
+.facebook a > i{
+    color:#0866FF;
+}
+
+.wpp a > i{
+    color:#25D366;
+}
+
+.instagram a >i{
+    color:#F52769;
+}
+
+.github a > i:hover::before{
+    transform: scale(1.5);
+}
 
 
